@@ -1,0 +1,17 @@
+use practice_sql
+
+create table StudentDetals(
+id int primary key,
+Student_name varchar(50),
+Department varchar(20),
+marks int
+)
+select *from Studentdetals
+alter table StudentDetals add column studentId int
+alter table studentdetals rename column studentId to RegistrationId
+alter table studentdetals modify column registrationid varchar(20)
+alter table studentdetals drop column registrationid
+insert into studentdetals values(1,"Harish","cs",75)
+insert into studentdetals (id,marks,student_name,department) values
+(2,90,"Nemsis","ece")
+
