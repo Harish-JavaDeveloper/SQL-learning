@@ -1,0 +1,16 @@
+SQL - structuredquery language.
+
+use - it is used for selecting schema
+create - to create the table
+  create table table_name(column_name data_type )
+insert - it is used for to insert the values
+  insert into table_name values(values) or insert into table_name (column_name) values(values)
+alter - to alter the column.
+  alter table table_name add column column_name data_type
+  alter table table_name rename column column_name to New_column_name
+  alter table table_name modify column column_name data_type
+  alter table table_name drop column column_name
+delete - it is used to delete the row
+  delete from table_name where column_name = values
+update - t is used forupdate the values.
+  update table_name set column_name = value where column_name = values
