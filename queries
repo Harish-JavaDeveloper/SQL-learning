@@ -14,4 +14,7 @@ alter table studentdetals drop column registrationid
 insert into studentdetals values(1,"Harish","cs",75)
 insert into studentdetals (id,marks,student_name,department) values
 (2,90,"Nemsis","ece")
+select * from studentdetals where department = "cs" and id =1
 
+select * from studentdetals where department ="cs" or id = 2
+select * from studentdetals where department in ("cs","ece")
