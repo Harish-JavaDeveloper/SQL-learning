@@ -14,3 +14,4 @@ delete - it is used to delete the row
   delete from table_name where column_name = values
 update - t is used forupdate the values.
   update table_name set column_name = value where column_name = values
+Forign key :Forign key is primary key of another table.
