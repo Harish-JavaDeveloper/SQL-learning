@@ -32,3 +32,10 @@ substring - it used to find the character in partcular position
           select first_name, substring(first_name, -2) from table_name (last two letter of string)
           select first_name, left(first_name, 2) from table_name (first 2 letter of string)
 instr - it will find the charact
+locate - used to find exact location of string
+substring - it used seperate the purticular string from main string
+replace - t is used to replace the word in string.
+repeat - it is used to repeat the words or character.
+rpad - used to add text or values in right side
+lpad - used to add text or values in left side
+FIND_IN_SET - it is used to find positon of the word in list of strings. also it not find duplicate word position. first find position
